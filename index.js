@@ -8,9 +8,10 @@ function setCart(c) {
   cart = c;
   return cart;
 }
-var price = Math.floor(Math.random() * 101);
+
 function addToCart(item) {
  // write your code here
+ var price = Math.floor(Math.random() * 101);
  var newItem = {};
  newItem.itemPrice = price;
  newItem.itemName = item;
