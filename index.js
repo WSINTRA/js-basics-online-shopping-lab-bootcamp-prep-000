@@ -12,7 +12,7 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- newItem.price = random;
+ newItem.price = parseInt(random);
  newItem.itemName = item;
  cart.push(newItem);
 return `${newItem.itemName} has been added to your cart.`
