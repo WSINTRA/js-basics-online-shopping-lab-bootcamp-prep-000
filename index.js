@@ -22,7 +22,7 @@ return `${newItem.itemName} has been added to your cart.`
 function viewCart() {
   //Should loop over every item in the cart
   //return a statement of what items are in the cart
-  if (cartItem.itemName.length <= 0)
+  if (newItem.itemName.length <= 0)
   {
     return "Your shopping cart is empty.";
   } else {
