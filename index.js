@@ -20,7 +20,13 @@ return `${newItem.itemName} has been added to your cart.`
 }
 
 function viewCart() {
-  // write your code here
+  //Should loop over every item in the cart
+  //return a statement of what items are in the cart
+  if (cartItem.itemName.length <= 0)
+  {
+    return "Your shopping cart is empty.";
+  } else {
+    return null};
 }
 
 function total() {
