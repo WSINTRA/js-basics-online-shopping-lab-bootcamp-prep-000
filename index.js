@@ -13,7 +13,7 @@ function addToCart(item) {
  // write your code here
  var newItem = {};
  newItem.itemPrice = price;
- newItem[itemName] = item;
+ newItem.itemName = item;
  return `${item.itemName} has been added to your cart.`
 }
 
