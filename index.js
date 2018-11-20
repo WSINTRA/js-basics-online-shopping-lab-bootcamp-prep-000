@@ -14,7 +14,8 @@ function addToCart(item) {
  var newItem = {};
  newItem.itemPrice = price;
  newItem.itemName = item;
- return `${item.itemName} has been added to your cart.`
+ cart.length = newItem;
+return `${item.itemName} has been added to your cart.`
 }
 
 function viewCart() {
